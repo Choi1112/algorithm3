@@ -6,7 +6,7 @@
 // edge 구조체 
 typedef struct Edge {
 	int weight;
-	int v1; // v2 까지의 
+	int v1; 
 	int v2;
 }edge;
 
