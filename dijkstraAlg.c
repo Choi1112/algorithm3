@@ -82,7 +82,7 @@ void main() {
 	dijkstraAlg(N, W, F);
 
 
-	// v1 노드로 부터 나머지 노드까지의 최소 path 출력
+	// v1 노드로부터 각각의 나머지 노드들까지의 최소 path 출력
 	printf("Shortest path(from v1)\n");
 	for (int i = 0;i < f_index;i++) {
 		for (int j = 0; j < i; j++) {
